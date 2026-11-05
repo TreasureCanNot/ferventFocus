@@ -2383,6 +2383,10 @@
       {
         "text": "An extremely large number",
         "type": "definition"
+      },
+      {
+        "text": "I have a myriad of ideas, I just have trouble putting them into practice",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2393,6 +2397,10 @@
       {
         "text": "Physically or mentally destructive, or harmful to human beings",
         "type": "definition"
+      },
+      {
+        "text": "Upon opening his mouth, he released a noxious gas capable of incapacitating an individual",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2419,8 +2427,16 @@
     "word": "Beatific",
     "definitions": [
       {
-        "text": "Displaying or imparting joy",
+        "text": "Displaying or imparting joy. Marked by utter benignity; resembling or befitting an angel or saint",
         "type": "definition"
+      },
+      {
+        "text": "experiencing or bestowing celestial joy",
+        "type": "definition"
+      },
+      {
+        "text": "Who could'have suspected Eitoku of such crimes, he always displayed such a beatific behaviour.",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2429,8 +2445,16 @@
     "word": "Nuance",
     "definitions": [
       {
-        "text": "Subtle variation",
+        "text": "A subtle or slight degree of difference, as in meaning, feeling, or tone; a gradation.",
         "type": "definition"
+      },
+      {
+        "text": "Expression or appreciation of subtle shades of meaning, feeling, or tone.",
+        "type": "definition"
+      },
+      {
+        "text": "Sure, everything the essay said was true, but it lacked nuance, it did'not bring any new information into the table, it re-stated what was already quite obvious to everyone.",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2441,6 +2465,14 @@
       {
         "text": "A difficult or precarious situation",
         "type": "definition"
+      },
+      {
+        "text": "Soft, wet, boggy land that trembles under the foot; a marsh; a bog; a fen. Slough, Bog, marsh etc.",
+        "type": "definition"
+      },
+      {
+        "text": "It would seem that Timo was stuck in quite the quagmire, swamped with nothing but free time, he felt himself trapped in his own free will.",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2451,6 +2483,14 @@
       {
         "text": "Dark; dull; gloomy; grave; serious",
         "type": "definition"
+      },
+      {
+        "text": "Melancholy; dismal.",
+        "type": "definition"
+      },
+      {
+        "text": "Her somber words lingered over room as the audience was heard quietly crying over the news",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2461,6 +2501,18 @@
       {
         "text": "By surprise; unexpectedly",
         "type": "definition"
+      },
+      {
+        "text": "At a disadvantage",
+        "type": "definition"
+      },
+      {
+        "text": "Without forethought or plan; inadvertently",
+        "type": "definition"
+      },
+      {
+        "text": "He was caught unawares by the attack Nata's future self. She had appeared to travel backwards in time to assist her present self, this time travelling bullshit is pissing you off.",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2471,6 +2523,10 @@
       {
         "text": "The right to vote; franchise",
         "type": "definition"
+      },
+      {
+        "text": "Some dumbass thought this word meant \"to suffer\" I love suffrage",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2481,6 +2537,18 @@
       {
         "text": "A tranquil, secluded place",
         "type": "definition"
+      },
+      {
+        "text": "A covered walk with an open colonnade on one side, running along the walls of buildings that face a quadrangle",
+        "type": "definition"
+      },
+      {
+        "text": "A place, especially a monastery or convent, devoted to religious seclusion.",
+        "type": "definition"
+      },
+      {
+        "text": "He had chosen the jewish cloister as a way of life, not knowing the dangers that lead ahead.",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2491,6 +2559,10 @@
       {
         "text": "Yielding to supervision; easily taught",
         "type": "definition"
+      },
+      {
+        "text": "It appeared docile at first, right before clawing at his face",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2501,6 +2573,18 @@
       {
         "text": "An excessive amount",
         "type": "definition"
+      },
+      {
+        "text": "an intemperate or immoderate indulgence in something (such as food or drink)",
+        "type": "definition"
+      },
+      {
+        "text": "to feed, supply, or give to surfeit",
+        "type": "definition"
+      },
+      {
+        "text": "After the party, I had a surfeit of sweets to feed on for the entirety of next week!!",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2509,8 +2593,20 @@
     "word": "Incongruous",
     "definitions": [
       {
-        "text": "Not appropriate",
+        "text": "Lacking in harmony; incompatible",
         "type": "definition"
+      },
+      {
+        "text": "Not in agreement, as with principles; inconsistent",
+        "type": "definition"
+      },
+      {
+        "text": "Not in keeping with what is correct, proper, or logical; inappropriate",
+        "type": "definition"
+      },
+      {
+        "text": "No one understood his incongruous behaviors, but it was yet to damage anyone, so we decided to keep him around",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2521,6 +2617,10 @@
       {
         "text": "Distant, reserved in manner, uninvolved",
         "type": "definition"
+      },
+      {
+        "text": "Milla acted quite aloof when visiting Uruguay. Sebs got really pissed at her because of this.",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2531,6 +2631,10 @@
       {
         "text": "Tormenting, disturbing, extremely distressing, frightened",
         "type": "definition"
+      },
+      {
+        "text": "Those harrowing words tormented Timo all-throughout his flight",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2541,6 +2645,10 @@
       {
         "text": "Continuing for a long time; continuous",
         "type": "definition"
+      },
+      {
+        "text": "Timo suffers from a Chronic illness. Funny enough, it'is called Crohn's because of this characteristic",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2551,6 +2659,14 @@
       {
         "text": "To stress; emphasize",
         "type": "definition"
+      },
+      {
+        "text": "To make something more noticeable or prominent",
+        "type": "definition"
+      },
+      {
+        "text": "Sofe chose to use a Fish-Eyed-lense in this scene to accentuate the ridiculousness of the circumstance.",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2561,6 +2677,10 @@
       {
         "text": "To shorten by chopping off the end",
         "type": "definition"
+      },
+      {
+        "text": "I had to cut my losses, the rope could'not lift me up, I truncated my body, that is to say I cut off my legs. Hopefully now I'will be light enouph for the rope to pull me up.",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2571,6 +2691,10 @@
       {
         "text": "Causing woe; destructive; deadly",
         "type": "definition"
+      },
+      {
+        "text": "Unknowing to her, the words she had just spokes were absolutely baneful to me",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2581,6 +2705,10 @@
       {
         "text": "Literally, looking about on all sides; hence, examining carefully all the circumstances that may affect, a determination; watchful on all sides; cautious; wary.",
         "type": "definition"
+      },
+      {
+        "text": "Timo was quite circumspect with his procedure this time, he could'not fuck this one up, not again",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2591,6 +2719,14 @@
       {
         "text": "To warn, to caution in council",
         "type": "definition"
+      },
+      {
+        "text": "To indicate duties or obligations to",
+        "type": "definition"
+      },
+      {
+        "text": "The leader had to stop the rest of the team, and admonish them, the rule-breaking was getting out of hand.",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2601,6 +2737,10 @@
       {
         "text": "Of equal value or significance",
         "type": "definition"
+      },
+      {
+        "text": "He thought that the life of an EMBRYO was tantamount to the life of a BABY. But she begged to differ",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2611,6 +2751,10 @@
       {
         "text": "A new word or phrase; new usage of a word",
         "type": "definition"
+      },
+      {
+        "text": "I love neologisms, for example, empalagous",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2621,6 +2765,10 @@
       {
         "text": "A brief period of rest or relief",
         "type": "definition"
+      },
+      {
+        "text": "Sebs enjoyed a brief respite before his boss shouted at him, admonishing him to get back to work",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2631,6 +2779,10 @@
       {
         "text": "To give in or surrender",
         "type": "definition"
+      },
+      {
+        "text": "Palestine simple refused to capitulate to Israel's demands. Israel retaliated by bombing the shit out of every surrounding country over the course of 3 years.",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2641,6 +2793,10 @@
       {
         "text": "A concise statement of truth",
         "type": "definition"
+      },
+      {
+        "text": "\"I'will know how deep the river is, only once I set foot in it\"",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2669,6 +2825,10 @@
       {
         "text": "To prove wrong; to refute decisively",
         "type": "definition"
+      },
+      {
+        "text": "Fede confuted Ethan's argument by targeting the cited evidence, and claiming it was biased",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2679,6 +2839,10 @@
       {
         "text": "Adroit or skillful in the use of hands or body",
         "type": "definition"
+      },
+      {
+        "text": "Dani proved to be incredibly dextrous at ping pong, except he absolutely did'not",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2689,6 +2853,10 @@
       {
         "text": "To lure, to attract, to tempt in a pleasing fashion",
         "type": "definition"
+      },
+      {
+        "text": "I could'have said no at any point, but the offer was just to enticing",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2697,8 +2865,12 @@
     "word": "Indolent",
     "definitions": [
       {
-        "text": "Lazy",
+        "text": "Habitually lazy or avoiding effort, often in a relaxed, unhurried way.",
         "type": "definition"
+      },
+      {
+        "text": "Martina sometimes displays indolent behaviour, but other times she is the furthest from it. Polar Opposites!!",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2709,6 +2881,14 @@
       {
         "text": "Unenthusiastic; careless",
         "type": "definition"
+      },
+      {
+        "text": "Done routinely with minimal effort or genuine interest, just to get it over with.",
+        "type": "definition"
+      },
+      {
+        "text": "I give a perfunctory salute at the teacher as I take a sit.",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2719,6 +2899,10 @@
       {
         "text": "Without liveliness; dull; spiritless",
         "type": "definition"
+      },
+      {
+        "text": "When we first saw her she was completely vapid, whatever had happened in that encounter, was nothing worth joking about.",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2729,6 +2913,10 @@
       {
         "text": "A face or facial expression",
         "type": "definition"
+      },
+      {
+        "text": "I could never tell when Chiara was joking or not, she has very good control over her visage, which makes her jokes 3x funnier",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2739,6 +2927,10 @@
       {
         "text": "Messy; characteristic of a slob",
         "type": "definition"
+      },
+      {
+        "text": "Sebs slovenly puts the disk into the cartridge. It only took the end of the world as we knew it for him to finally decide to give the movie \"Coherence\" a watch",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2749,6 +2941,10 @@
       {
         "text": "Showing little emotion or pain; emotionally solid",
         "type": "definition"
+      },
+      {
+        "text": "Throughout his formative years, Dani maintained a determined and stolid expression. This changed however",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2763,6 +2959,10 @@
       {
         "text": "Reserved; closemouthed.",
         "type": "definition"
+      },
+      {
+        "text": "I hate it, but I must admit I am quite taciturn, I'am still working on it",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2773,6 +2973,10 @@
       {
         "text": "Extremely bad; flagrant",
         "type": "definition"
+      },
+      {
+        "text": "It was incredibly hard to recover from such an egregious mistake, Ms Moskovicks was two seconds away from pumping you full of lead for giving such a dumb answer to her question.",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -2783,6 +2987,10 @@
       {
         "text": "Morally degraded: synonym: base.",
         "type": "definition"
+      },
+      {
+        "text": "Many believe incest to be innately sordid, even if no offspring is made. However if you think about it, there is nothing wrong with gay incest, other than it being really weird by our current societal standards.",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -2797,6 +3005,10 @@
       {
         "text": "Depending on public confidence for value or currency",
         "type": "definition"
+      },
+      {
+        "text": "A good doctor feels a fiduciary responsibility toward her patients, putting their health and wellbeing ahead of her own convenience.",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -2807,6 +3019,10 @@
       {
         "text": "Loyal and resolute. Strong and imposing",
         "type": "definition"
+      },
+      {
+        "text": "Ethan is a stalwart Trump supporter, which baffles me on the daily.",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -2817,6 +3033,10 @@
       {
         "text": "A compact or close-knit body of people.",
         "type": "definition"
+      },
+      {
+        "text": "A phalanx of photographers blocked the hotel entrance, their cameras raised as the Sofe and Bruno stepped out of the car.",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -2835,6 +3055,10 @@
       {
         "text": "Something unsubstantial or trivial.",
         "type": "definition"
+      },
+      {
+        "text": "The barista topped the cappuccino with a thick layer of froth, then dusted it with cinnamon. Creating a pattern reminiscent of my dog",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -2845,6 +3069,10 @@
       {
         "text": "Dark, misty, and gloomy.",
         "type": "definition"
+      },
+      {
+        "text": "The caliginous corridor swallowed the weak glow of his lantern, they had to rely solely on Bruno's instincts to traverse the labyrinth",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -2859,6 +3087,10 @@
       {
         "text": "Vigorously passionate, lustful sometimes",
         "type": "definition"
+      },
+      {
+        "text": "I do'not generally have many concupiscent, or at least I feel like I do'not",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -2881,6 +3113,10 @@
       {
         "text": "To hinder or obstruct",
         "type": "definition"
+      },
+      {
+        "text": "By destroying microsoft, Paul had officially hobbled our chemistry presentation practice since we did not have powerpoint anymore",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -2931,6 +3167,10 @@
       {
         "text": "Respect and esteem due a superior or an elder",
         "type": "definition"
+      },
+      {
+        "text": "Out of deference for the elders' experience, I let Grandfather Jose chose for himself. He decided to keep driving, he crashed into two other roundabouts after that",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -3407,12 +3647,16 @@
     "word": "Anathema",
     "definitions": [
       {
-        "type": "definition",
-        "text": "Someone or something that is hated"
+        "text": "Someone or something that is hated",
+        "type": "definition"
       },
       {
-        "type": "definition",
-        "text": "To be condemned by god"
+        "text": "To be condemned by god",
+        "type": "definition"
+      },
+      {
+        "text": "Is a lack of belief an anathema? I hope not",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -3471,12 +3715,16 @@
     "word": "Tawdry",
     "definitions": [
       {
-        "type": "definition",
-        "text": "Gaudy and cheap in nature or appearance."
+        "text": "Gaudy and cheap in nature or appearance.",
+        "type": "definition"
       },
       {
-        "type": "definition",
-        "text": "Shameful or indecent."
+        "text": "Shameful or indecent.",
+        "type": "definition"
+      },
+      {
+        "text": "I put on a tawdry dress to barely qualify as a girl, see here in the future, a dress is enough to obscure your gender identity despite any other features you may have. It has it's upsides",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -3511,8 +3759,12 @@
     "word": "Ad-nauseam",
     "definitions": [
       {
-        "type": "definition",
-        "text": "To a disgusting or ridiculous degree; to the point of nausea."
+        "text": "To a disgusting or ridiculous degree; to the point of nausea.",
+        "type": "definition"
+      },
+      {
+        "text": "He kept slandering Islam to ad-nauseam",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -3521,12 +3773,16 @@
     "word": "Pulchritude",
     "definitions": [
       {
-        "type": "definition",
-        "text": "Attractive moral excellence; moral beauty."
+        "text": "Attractive moral excellence; moral beauty.",
+        "type": "definition"
       },
       {
-        "type": "definition",
-        "text": "That quality of appearance which pleases the eye; beauty; comeliness; grace; loveliness."
+        "text": "That quality of appearance which pleases the eye; beauty; comeliness; grace; loveliness.",
+        "type": "definition"
+      },
+      {
+        "text": "He claimed his pulchritude came from Judeochristian values, I argued that it came from common logic",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -3661,8 +3917,12 @@
     "word": "Conniption",
     "definitions": [
       {
-        "type": "definition",
-        "text": "A fit of anger or panic; though it can also be used as a fit of laughter. Or a convulsion inducing fit of emotion in general."
+        "text": "A fit of anger or panic; though it can also be used as a fit of laughter. Or a convulsion inducing fit of emotion in general.",
+        "type": "definition"
+      },
+      {
+        "text": "I was two seconds away from having a conniption after realising there was nothing to be done to remedy the situation",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -3721,12 +3981,16 @@
     "word": "Entourage",
     "definitions": [
       {
-        "type": "definition",
-        "text": "A group of attendants or associates; a retinue."
+        "text": "A group of attendants or associates; a retinue.",
+        "type": "definition"
       },
       {
-        "type": "definition",
-        "text": "One's environment or surroundings."
+        "text": "One's environment or surroundings.",
+        "type": "definition"
+      },
+      {
+        "text": "I examined the entourage, nothing was detected out of the ordinary, I took another step",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -3919,16 +4183,20 @@
     "word": "Inexorable",
     "definitions": [
       {
-        "type": "definition",
-        "text": "Unable to be persuaded; relentless; unrelenting"
+        "text": "Unable to be persuaded; relentless; unrelenting",
+        "type": "definition"
       },
       {
-        "type": "definition",
-        "text": "Impossible to stop or prevent; inevitable"
+        "text": "Impossible to stop or prevent; inevitable",
+        "type": "definition"
       },
       {
-        "type": "definition",
-        "text": "Adamant; severe"
+        "text": "Adamant; severe",
+        "type": "definition"
+      },
+      {
+        "text": "But he could'not against his inexorable stance, he was dogma personified",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -3987,12 +4255,16 @@
     "word": "Ablution",
     "definitions": [
       {
-        "type": "definition",
-        "text": "The act of washing or cleansing; specifically, the washing of the body, or some part of it, as a religious rite."
+        "text": "The act of washing or cleansing; specifically, the washing of the body, or some part of it, as a religious rite.",
+        "type": "definition"
       },
       {
-        "type": "definition",
-        "text": "The water used in cleansing"
+        "text": "The water used in cleansing",
+        "type": "definition"
+      },
+      {
+        "text": "And upon dying, one drinks from the lethe to gain soul ablution, pure to be re-incarnated again",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -4003,6 +4275,10 @@
       {
         "text": "Nevertheless.",
         "type": "definition"
+      },
+      {
+        "text": "We can agree Hamas is a terrorist group, howbeit we can'not agree that their violence is unjustified",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -4013,6 +4289,10 @@
       {
         "text": "Relating to attire, especially tailored fashions.",
         "type": "definition"
+      },
+      {
+        "text": "I adjusted my sartorial looks to a more traditional style",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -4023,6 +4303,10 @@
       {
         "text": "To publicly brag",
         "type": "definition"
+      },
+      {
+        "text": "He touted with confidence, hoping no one would take him in his ridiculous challenge",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -4033,6 +4317,10 @@
       {
         "text": "Everyday speech; slang",
         "type": "definition"
+      },
+      {
+        "text": "Cool is my favourite vernacular word",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -4047,6 +4335,10 @@
       {
         "text": "Lacking intelligence; stupid or empty-headed; Devoid of substance or meaning; vapid or inane.",
         "type": "definition"
+      },
+      {
+        "text": "I found the statement to be rather vacuous",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -4057,6 +4349,10 @@
       {
         "text": "A useless or purely ornamental thing.",
         "type": "definition"
+      },
+      {
+        "text": "I'have gotten a lot of fandangles in my room as of late",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -4067,6 +4363,10 @@
       {
         "text": "A strong feeling of dislike or hatred.",
         "type": "definition"
+      },
+      {
+        "text": "\"I detect a certain animosity you have towards this group\" - Timo",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -4091,6 +4391,10 @@
       {
         "text": "Indeed; in truth.",
         "type": "definition"
+      },
+      {
+        "text": "Yes forsooth, but have you considered the other side?",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -4101,6 +4405,10 @@
       {
         "text": "Not capable of being maintained or defended.",
         "type": "definition"
+      },
+      {
+        "text": "The situation is untenable, we have to nuke the planet",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -4111,6 +4419,10 @@
       {
         "text": "A condition of pain, suffering, or distress: synonym: trial.",
         "type": "definition"
+      },
+      {
+        "text": "I could'not relate to her affliction, but I could get really mad, and that'is what I did",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -4121,6 +4433,10 @@
       {
         "text": "Intensify; improve",
         "type": "definition"
+      },
+      {
+        "text": "I enhanced the PROTECTION Attribute of the shield while de-stabilising the duration attribute, hopefully I can fend off the rest without the shield",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -4131,6 +4447,10 @@
       {
         "text": "To leave or give (personal property) by will.",
         "type": "definition"
+      },
+      {
+        "text": "In her will, Dr Castellano chose to bequeath her entire library to the town’s film studio, hoping everyone would get her message",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -4153,8 +4473,12 @@
     "word": "Fastidious",
     "definitions": [
       {
-        "text": "meticulous, overly delicate",
+        "text": "meticulous, overly delicate, very attentive to detail and hard to please, often to the point of being fussy",
         "type": "definition"
+      },
+      {
+        "text": "Ms Moskovicks is a fastidious character when it comes to anything but her own work",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -4395,6 +4719,10 @@
       {
         "text": "Disaster;Apocalypse;",
         "type": "definition"
+      },
+      {
+        "text": "A lack of empathy can very easily cause a calamity",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -4425,6 +4753,10 @@
       {
         "text": "To place side by side",
         "type": "definition"
+      },
+      {
+        "text": "The juxtaposition was obvious, yet infuriating",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -4435,6 +4767,10 @@
       {
         "text": "To signal or summon, as by nodding or waving.",
         "type": "definition"
+      },
+      {
+        "text": "I beckoned everyone's attention immediately by snapping my fingers",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -4915,6 +5251,10 @@
       {
         "text": "attractive or pleasant to look at",
         "type": "definition"
+      },
+      {
+        "text": "Her comely appearance hid a murderous nature",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -5301,6 +5641,10 @@
       {
         "text": "To avert or prevent something evil or unpleasant.",
         "type": "definition"
+      },
+      {
+        "text": "In order to forfend any more of this atrocity, I decided to delete the task outright",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -5605,6 +5949,10 @@
       {
         "text": "An authoritative command or urgent request",
         "type": "definition"
+      },
+      {
+        "text": "At my behest, my knight swung his axe to demolish the pilar holding the castle together",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -6409,6 +6757,14 @@
       {
         "text": "Timo's quiescent nature makes it hard for him to make enemies",
         "type": "example"
+      },
+      {
+        "text": "A state of rest or lack of movement, often for a limited time.",
+        "type": "definition"
+      },
+      {
+        "text": "Satellite cells are normally quiescent, located between the plasma membrane and surrounding basement membrane along the length of muscle fibers.",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -6777,6 +7133,10 @@
       {
         "text": "Affectedly genteel; pretentious; haughty; snobbish.",
         "type": "definition"
+      },
+      {
+        "text": "The critic’s highfalutin review was so packed with obscure terms that most readers gave up halfway through and just checked the star rating.",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -6797,6 +7157,10 @@
       {
         "text": "To examine very carefully",
         "type": "definition"
+      },
+      {
+        "text": "He scrutinised his work, searching for the mistake, as always, it turned out to be a minus sign",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -6807,6 +7171,10 @@
       {
         "text": "Recklessness; wild craziness; disregard for danger",
         "type": "definition"
+      },
+      {
+        "text": "Timo shouted with temerity amongst the violence",
+        "type": "example"
       }
     ],
     "category": "QuackWords"
@@ -6817,6 +7185,10 @@
       {
         "text": "A word formed by merging the sounds and meanings of two different words, as chortle, from chuckle and snort.",
         "type": "definition"
+      },
+      {
+        "text": "Homestuck has a shit ton of Portmanteaus",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -6894,7 +7266,7 @@
       },
       {
         "text": "Her decision to invest was predicated on the assumption that the market would recover quickly.",
-        "type": "definition"
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -6908,7 +7280,7 @@
       },
       {
         "text": "The team's vaunted defense failed to impress in the championship game, allowing three goals in the first half.",
-        "type": "definition"
+        "type": "example"
       }
     ],
     "category": "HOMESTUCK"
@@ -7048,7 +7420,7 @@
       },
       {
         "text": "Timo gets distracted too often, but when things get serious, he can be extremely prudent.",
-        "type": "definition"
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -7080,7 +7452,7 @@
       },
       {
         "text": "Roger that captain, ima kill ths mthr fukr",
-        "type": "definition"
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -7095,6 +7467,10 @@
       {
         "text": "The construction workers were hoisting steel beams high into the air to assemble the framework of the new skyscraper.",
         "type": "definition"
+      },
+      {
+        "text": "He hoisted the wood plank upwards, in an excellent display of strength",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -7435,6 +7811,10 @@
       {
         "text": "Upon showcasing his masterpiece, the critics found it rather banal in nature.",
         "type": "definition"
+      },
+      {
+        "text": "This argument is nothing short of a banality towards human logic",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -7605,6 +7985,10 @@
       {
         "text": "Sour or bitter.\nSarcastic or cynical.\nSharp-tempered.",
         "type": "definition"
+      },
+      {
+        "text": "Fede spit some acerbic attitude with a nasty comment",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -7615,6 +7999,10 @@
       {
         "text": "A thin, flexible, transparent cellulose material made from wood pulp and used as a moistureproof wrapping.\nPlastic wrap.",
         "type": "definition"
+      },
+      {
+        "text": "Lucas unwrapped the gift with great ceremony, crinkling the cellophane loudly",
+        "type": "example"
       }
     ],
     "category": "HOMESTUCK"
@@ -7625,6 +8013,10 @@
       {
         "text": "Characterized by an inordinate interest in sex.",
         "type": "definition"
+      },
+      {
+        "text": "I can say for a fact I am not Prurient in any sense of the word",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -7635,6 +8027,10 @@
       {
         "text": "To persuade by flattery, gentle pleading, or insincere language",
         "type": "definition"
+      },
+      {
+        "text": "Timo tried to cajole Sebs into joining the study session, promising snacks, a quiet corner, and a ride home afterward, until Sebs finally shrugged and grabbed his bag.",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -7649,6 +8045,14 @@
       {
         "text": "complain bitterly",
         "type": "definition"
+      },
+      {
+        "text": "to speak out against something with strong, angry criticism",
+        "type": "definition"
+      },
+      {
+        "text": "Ethan often inveighs his hatred of Islam",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -7667,6 +8071,10 @@
       {
         "text": "Something spoken or written, intended to cast opprobrium, censure, or reproach on another",
         "type": "definition"
+      },
+      {
+        "text": "Ethan’s invective against the proposed tax hike grew in intensity",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -7685,6 +8093,10 @@
       {
         "text": "One that stands as a rebuke or blame",
         "type": "definition"
+      },
+      {
+        "text": "Dani’s gaze was one of quiet reproach when Sebs admitted he hadn’t read a single page of the assigned chapter, though she said nothing aloud.",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -7695,6 +8107,10 @@
       {
         "text": "for a very brief time",
         "type": "definition"
+      },
+      {
+        "text": "Sebs was transitorily interested in the debate, lasting about thirty seconds before he drifted back to scrolling on his phone.",
+        "type": "example"
       }
     ],
     "category": "HOMESTUCK"
@@ -7705,9 +8121,13 @@
       {
         "text": "Adjective for something too sweet. Something that causes discomfort in your throat or mouth in general because of it's sweetness",
         "type": "definition"
+      },
+      {
+        "text": "This Dulce de Leche is quite empalagous",
+        "type": "example"
       }
     ],
-    "category": "cosmilk"
+    "category": ""
   },
   {
     "word": "Veneer",
@@ -7715,6 +8135,10 @@
       {
         "text": "A veneer is a thin layer or decorative facing applied to a surface. It is primarily used to cover cheaper or less attractive materials to create a fine finish, and to improve appearance or conceal underlying defects.",
         "type": "definition"
+      },
+      {
+        "text": "Fede’s polite smile was only a veneer; underneath, he was furious",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -7725,6 +8149,10 @@
       {
         "text": "Veering refers to a sudden or significant change in direction, course, or position. It is commonly used to describe the erratic movement of vehicles, a shift in the wind, or even a change in the topic of a conversation",
         "type": "definition"
+      },
+      {
+        "text": "Halfway through the debate, Ethan’s argument started veering off course",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -7735,6 +8163,10 @@
       {
         "text": "Motley is an adjective used to describe a diverse, incongruous, or mismatched collection of people, things, or colors that seem to clash but make up a whole.",
         "type": "definition"
+      },
+      {
+        "text": "The motley study group gathered in the library. At any moment they would explode in arguments",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -7743,8 +8175,12 @@
     "word": "Beset",
     "definitions": [
       {
-        "text": "Beset es un verbo en inglés (cuyas formas son beset en pasado y participio) que significa acosar, rodear, asediar o estar plagado de problemas. Se utiliza principalmente para describir situaciones en las que alguien o algo es atacado o afectado persistentemente por dificultades.",
+        "text": "To attack from all sides.\nTo trouble persistently; harass. synonym: attack.\nTo hem in; surround",
         "type": "definition"
+      },
+      {
+        "text": "The student council was beset by endless arguments",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -7755,6 +8191,10 @@
       {
         "text": "Boilerplate refers to standardized, reusable text or code that can be copied and used multiple times across different contexts without major alterations",
         "type": "definition"
+      },
+      {
+        "text": "Let me give you the boilerplate definition",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -7765,6 +8205,10 @@
       {
         "text": "Interlocution refers to a formal or structured exchange of spoken words, dialogue, or conversation between two or more people. It also has a secondary use in the legal field to describe a preliminary, intermediate court decree made before a final decision",
         "type": "definition"
+      },
+      {
+        "text": "Sorry for interrupting your small interlocution, but it seems we have bigger fish to fry",
+        "type": "example"
       }
     ],
     "category": "regular"
@@ -7782,5 +8226,73 @@
       }
     ],
     "category": "use-full"
+  },
+  {
+    "word": "Threadbare",
+    "definitions": [
+      {
+        "text": "Having the nap worn down so that the filling or warp threads show through; frayed or shabby.",
+        "type": "definition"
+      },
+      {
+        "text": "Wearing old, shabby clothing.\nOverused to the point of being worn out; hackneyed",
+        "type": "definition"
+      },
+      {
+        "text": "Alice had'not thought to interrogate this threadbare excuse",
+        "type": "example"
+      },
+      {
+        "text": "Bare of threads",
+        "type": "definition"
+      }
+    ],
+    "category": "regular"
+  },
+  {
+    "word": "Commensurable",
+    "definitions": [
+      {
+        "text": "Measurable by a common standard.",
+        "type": "definition"
+      },
+      {
+        "text": "Based on your evocation, could you further analyze your surroundings as being commensurable to the description I’ve provided?",
+        "type": "example"
+      }
+    ],
+    "category": "regular"
+  },
+  {
+    "word": "Haute",
+    "definitions": [
+      {
+        "text": "Fashionably elegant; High Class",
+        "type": "definition"
+      },
+      {
+        "text": "And lo and behold, there was Timo, wearing the hautest couture on the market.",
+        "type": "example"
+      }
+    ],
+    "category": "regular"
+  },
+  {
+    "word": "Actuate",
+    "definitions": [
+      {
+        "text": "To put into action or motion; to move or incite to action; to influence actively; to move as motives do; -- more commonly used of persons, To carry out in practice; to perform.",
+        "type": "definition"
+      },
+      {
+        "text": "He was actuated by a deep sense of duty.",
+        "type": "example"
+      },
+      {
+        "text": "Pressing the red button will actuate the emergency shutdown system.",
+        "type": "example"
+      }
+    ],
+    "category": "regular"
   }
 ]
