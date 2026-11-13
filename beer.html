@@ -26,7 +26,39 @@
     }
     label { display: block; margin: 12px 0 4px; font-weight: bold; }
     input { font-size: 1em; }
-    input[type="number"] { width: 80px; text-align: center; }
+    input[type="file"] { width: 100%; font-size: 1em; }
+    input[type="file"]::file-selector-button {
+      font-size: 1.3em;
+      padding: 16px 22px;
+      margin-right: 10px;
+      background: #3b2a00;
+      color: #fff3cc;
+      border: none;
+      cursor: pointer;
+    }
+    .number-row {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 6px;
+    }
+    .number-row input {
+      width: 110px;
+      font-size: 2.2em;
+      text-align: center;
+      padding: 8px 0;
+    }
+    .step {
+      font-size: 2.2em;
+      width: 70px;
+      margin-top: 0;
+      padding: 0;
+    }
+    #submit-btn {
+      width: 100%;
+      font-size: 1.7em;
+      padding: 20px;
+    }
     button {
       font-size: 1.1em;
       margin-top: 20px;
@@ -52,10 +84,13 @@
     <input type="file" id="photo" accept="image/*">
 
     <label for="amount">B-Number</label>
-    <input type="number" id="amount" min="1" max="20" value="1">
+    <div class="number-row">
+      <button type="button" class="step" id="minus">-</button>
+      <input type="number" id="amount" min="1" value="1" inputmode="numeric">
+      <button type="button" class="step" id="plus">+</button>
+    </div>
 
-    <br>
-    <button type="submit">Submit</button>
+    <button type="submit" id="submit-btn">Submit</button>
   </form>
 
   <p id="message"></p>
@@ -70,6 +105,14 @@
     const form = document.getElementById("beer-form");
     const message = document.getElementById("message");
     const countEl = document.getElementById("count");
+    const amountEl = document.getElementById("amount");
+
+    document.getElementById("minus").addEventListener("click", function () {
+      amountEl.value = Math.max(1, (parseInt(amountEl.value, 10) || 1) - 1);
+    });
+    document.getElementById("plus").addEventListener("click", function () {
+      amountEl.value = (parseInt(amountEl.value, 10) || 0) + 1;
+    });
 
     async function loadCount() {
       const { data, error } = await db.rpc("get_total");
@@ -90,8 +133,8 @@
         message.textContent = "Evidence necessitated";
         return;
       }
-      if (!amount || amount < 1 || amount > 20) {
-        message.textContent = "Enter a number between 1 and 20.";
+      if (!amount || amount < 1) {
+        message.textContent = "B-Number must be at least 1.";
         return;
       }
 
