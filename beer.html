@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beer Counter</title>
+  <style>
+    body {
+      background: #f5b82e;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+      color: #3b2a00;
+    }
+    h1 { font-size: 2.4em; margin-bottom: 5px; }
+    p { max-width: 450px; margin: 10px auto; }
+    #count { font-size: 5em; font-weight: bold; margin: 10px 0 0; }
+    #count-label { margin-top: 0; }
+    form {
+      background: #fff3cc;
+      border: 2px solid #3b2a00;
+      max-width: 350px;
+      margin: 25px auto;
+      padding: 20px;
+    }
+    label { display: block; margin: 12px 0 4px; font-weight: bold; }
+    input { font-size: 1em; }
+    input[type="number"] { width: 80px; text-align: center; }
+    button {
+      font-size: 1.1em;
+      margin-top: 20px;
+      padding: 8px 20px;
+      background: #3b2a00;
+      color: #fff3cc;
+      border: none;
+      cursor: pointer;
+    }
+    #message { font-weight: bold; min-height: 1.5em; }
+  </style>
+</head>
+<body>
+
+  <h1>Beer Counter</h1>
+  <p>
+    Had some beers? Upload a picture as proof, tell us how many,
+    and hit submit. Once the picture has been checked, your beers are added to the total.
+  </p>
+
+  <div id="count">0</div>
+  <p id="count-label">beers drunk so far</p>
+
+  <form id="beer-form">
+    <label for="photo">Picture</label>
+    <input type="file" id="photo" accept="image/*">
+
+    <label for="amount">Number of beers</label>
+    <input type="number" id="amount" min="1" max="20" value="1">
+
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <p id="message"></p>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.0/dist/umd/supabase.min.js"></script>
+  <script>
+    // Paste these two from Supabase (Project Settings > API)
+    const SUPABASE_URL = "https://qokecwecsbyxndawytlt.supabase.co";
+    const SUPABASE_KEY = "sb_publishable_jiwmjg4m06GYg1Wge5TJhA_m_m2l0jd";
+    const db = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    const form = document.getElementById("beer-form");
+    const message = document.getElementById("message");
+    const countEl = document.getElementById("count");
+
+    async function loadCount() {
+      const { data, error } = await db.rpc("get_total");
+      if (error) {
+        countEl.textContent = "?";
+        return;
+      }
+      countEl.textContent = data;
+    }
+
+    form.addEventListener("submit", async function (e) {
+      e.preventDefault();
+
+      const photo = document.getElementById("photo").files[0];
+      const amount = parseInt(document.getElementById("amount").value, 10);
+
+      if (!photo) {
+        message.textContent = "Please add a picture.";
+        return;
+      }
+      if (!amount || amount < 1 || amount > 20) {
+        message.textContent = "Enter a number between 1 and 20.";
+        return;
+      }
+
+      if (photo.size > 5 * 1024 * 1024) {
+        message.textContent = "That picture is too big (max 5 MB).";
+        return;
+      }
+
+      const button = form.querySelector("button");
+      button.disabled = true;
+      message.textContent = "Sending...";
+
+      // 1. upload the picture to the private folder
+      const ext = (photo.name.split(".").pop() || "jpg").toLowerCase().replace(/[^a-z0-9]/g, "");
+      const path = crypto.randomUUID() + "." + ext;
+      const upload = await db.storage.from("photos").upload(path, photo);
+
+      if (upload.error) {
+        message.textContent = "Upload failed. Try again.";
+        button.disabled = false;
+        return;
+      }
+
+      // 2. save the number as a pending entry
+      const insert = await db.from("entries").insert({ amount: amount, photo_path: path });
+
+      if (insert.error) {
+        message.textContent = "Something went wrong. Try again.";
+        button.disabled = false;
+        return;
+      }
+
+      message.textContent = "Thanks! Your beers will count once the picture is checked.";
+      form.reset();
+      button.disabled = false;
+    });
+
+    loadCount();
+  </script>
+
+</body>
+</html>

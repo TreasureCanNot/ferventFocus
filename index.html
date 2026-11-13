@@ -100,7 +100,7 @@
       background: red;
       color: black;
       letter-spacing: 0.05em;
-      animation: immposible 0.7s infinite alternate;
+      animation: immposible 0.5s infinite alternate;
       animation-timing-function: ease-in-out;
     }
 
@@ -120,6 +120,21 @@
       animation: bingo 0.1s infinite alternate;
       animation-timing-function: ease-in-out;
     }
+    table.bingo-card span.crostN {
+      font-family: 'Courier Prime', monospace;
+      font-size: clamp(0.52rem, 1.8vw, 0.78rem);
+      background: none;
+      color: #fff;
+      letter-spacing: 0.05em;
+      animation: bexti 0.1s infinite alternate;
+      animation-timing-function: ease-in-out;
+    }
+
+    @keyframes bexti {
+      0%   { color: black; font-size: 13px;}
+      100%  { color: rgb(168, 92, 185); font-size: 14px;}
+    }
+    
 
     @keyframes bingo {
       0%   { color: black; background: white;}
@@ -128,7 +143,7 @@
 
     @keyframes immposible {
       0%   { background: red;}
-      100%  {background-color: #ff6c6c;}
+      100%  {background-color: #ffbfbf;}
     }
   </style>
 </head>
@@ -163,7 +178,7 @@
             <td class="nest">Uruguay Fourth Finals</td>
           </tr>
           <tr>  
-            <td>I get 9 Amazing dreams(4/9)</td>
+            <td>I get 9 Amazing dreams(<span class="crostN">4</span>/9)</td>
             <td>4 Table Tube Gang members unite</td>
             <td class="crostN">US mid-term elections don't go terribly</td>
             <td>Uruguay allows Nuclear Energy</td>
@@ -172,7 +187,7 @@
           <tr>
             <td>Ethan goes to the Alumni reunion</td>
             <td>Climate Changes</td>
-            <td class="impos">SAAC UAS Win</td>
+            <td>SAAC UAS Win</td>
             <td>Megan quits recreative use of alcohol</td>
             <td>Martina Forgives me</td>
           </tr>
