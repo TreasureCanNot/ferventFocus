@@ -26,6 +26,8 @@
     }
     label { display: block; margin: 12px 0 4px; font-weight: bold; }
     input { font-size: 1em; }
+    input[type="text"] { width: 90%; font-size: 1.1em; padding: 10px; }
+    #photos-link { margin-top: 20px; }
     input[type="file"] { width: 100%; font-size: 1em; }
     input[type="file"]::file-selector-button {
       font-size: 1.3em;
@@ -74,7 +76,7 @@
 <body>
 
   <h1>Beer Counter</h1>
-  <p>Count your beers wisely with this WEB-SITE. Upload a number of beers and photographic evidence of said beers. The photographic evidence will be thoroughly analysed to dictate it's veracity, and once it goes through such process, the beer number will increase.</p>
+  <p>Count your beers wisely with this WEB-SITE. Upload a number of beers and photographic evidence of said beers. The photographic evidence will the thoroughly analysed to dictate it's veracity, and once it goes through such process, the beer number will increase.</p>
 
   <div id="count">0</div>
   <p id="count-label">Beers Drunk</p>
@@ -90,6 +92,9 @@
       <button type="button" class="step" id="plus">+</button>
     </div>
 
+    <label for="desc">Description (optional)</label>
+    <input type="text" id="desc" maxlength="140" placeholder="Where, who, which beer...">
+
     <button type="submit" id="submit-btn">Submit</button>
   </form>
 
@@ -98,6 +103,12 @@
   <br>
   <br>
   <p>Alternatively, if you just put a number and a photo in the groupchat, I'will add it here myself</p>
+  <br>
+  <br>
+  <br>
+  <hr>
+  <p id="photos-link"><a href="beerphots.html">See the approved beer photos</a></p>
+
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.0/dist/umd/supabase.min.js"></script>
   <script>
     // Paste these two from Supabase (Project Settings > API)
@@ -152,7 +163,13 @@
 
       // 1. upload the picture to the private folder
       const ext = (photo.name.split(".").pop() || "jpg").toLowerCase().replace(/[^a-z0-9]/g, "");
-      const path = crypto.randomUUID() + "." + ext;
+      const numRes = await db.rpc("next_photo_number");
+      if (numRes.error) {
+        message.textContent = "Upload failed. Try harder.";
+        button.disabled = false;
+        return;
+      }
+      const path = "beer-" + numRes.data + "." + ext;
       const upload = await db.storage.from("photos").upload(path, photo);
 
       if (upload.error) {
@@ -162,7 +179,12 @@
       }
 
       // 2. save the number as a pending entry
-      const insert = await db.from("entries").insert({ amount: amount, photo_path: path });
+      const desc = document.getElementById("desc").value.trim();
+      const insert = await db.from("entries").insert({
+        amount: amount,
+        photo_path: path,
+        description: desc || null
+      });
 
       if (insert.error) {
         message.textContent = "Something is wrong, I can feel it";

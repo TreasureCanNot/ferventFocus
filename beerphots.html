@@ -106,8 +106,8 @@
         dateP.appendChild(dateB);
         box.appendChild(dateP);
 
-        // the picture is looked up in the "photos" folder of the repo,
-        // using the same file name as in Supabase. No file = empty placeholder.
+        // the picture is looked up in the "photos" folder of the repo using the
+        // same file name as in Supabase (beer-1.jpg, beer-2.jpg...). No file = empty placeholder.
         function makePlaceholder() {
           const ph = document.createElement("div");
           ph.className = "placeholder";
@@ -116,7 +116,7 @@
         }
         if (e.photo_path) {
           const img = document.createElement("img");
-          img.src = "beers/" + encodeURIComponent(e.photo_path);
+          img.src = "photos/" + encodeURIComponent(e.photo_path);
           img.alt = "Beer photo";
           img.loading = "lazy";
           img.onerror = function () { img.replaceWith(makePlaceholder()); };
