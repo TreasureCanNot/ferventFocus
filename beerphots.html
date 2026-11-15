@@ -116,7 +116,7 @@
         }
         if (e.photo_path) {
           const img = document.createElement("img");
-          img.src = "photos/" + encodeURIComponent(e.photo_path);
+          img.src = "beers/" + encodeURIComponent(e.photo_path);
           img.alt = "Beer photo";
           img.loading = "lazy";
           img.onerror = function () { img.replaceWith(makePlaceholder()); };
