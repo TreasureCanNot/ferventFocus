@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beer Photos</title>
+  <style>
+    body {
+      background: #f5b82e;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+      color: #3b2a00;
+    }
+    h1 { font-size: 2.4em; margin-bottom: 5px; }
+    a { color: #3b2a00; font-weight: bold; }
+    #status { font-weight: bold; }
+    .box-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      max-width: 1100px;
+      margin: 25px auto;
+      align-items: start;
+    }
+    .box {
+      border: 6px double #3b2a00;
+      background: #fff3cc;
+      padding: 10px;
+      text-align: left;
+      box-sizing: border-box;
+    }
+    .box img { width: 100%; display: block; margin-bottom: 8px; }
+    .box p { margin: 6px 0; overflow-wrap: anywhere; }
+    .placeholder {
+      background: #f0d98a;
+      border: 2px dashed #3b2a00;
+      height: 160px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 8px;
+    }
+    @media (max-width: 800px) { .box-container { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 500px) { .box-container { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+  <h1>Beer Photos</h1>
+  <p><span id="total">?</span> beers drunk so far</p>
+  <p><a href="beer.html">Back to the counter</a></p>
+  <p id="status">Loading...</p>
+
+  <div class="box-container" id="grid"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.0/dist/umd/supabase.min.js"></script>
+  <script>
+    const SUPABASE_URL = "https://qokecwecsbyxndawytlt.supabase.co";
+    const SUPABASE_KEY = "sb_publishable_jiwmjg4m06GYg1Wge5TJhA_m_m2l0jd";
+    const db = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    const grid = document.getElementById("grid");
+    const status = document.getElementById("status");
+
+    function addLine(box, text, bold) {
+      const p = document.createElement("p");
+      if (bold) {
+        const b = document.createElement("b");
+        b.textContent = bold;
+        p.appendChild(b);
+      }
+      p.appendChild(document.createTextNode(text));
+      box.appendChild(p);
+    }
+
+    async function load() {
+      const total = await db.rpc("get_total");
+      if (!total.error) document.getElementById("total").textContent = total.data;
+
+      const { data, error } = await db
+        .from("entries")
+        .select("amount, description, photo_path, created_at")
+        .eq("approved", true)
+        .order("created_at", { ascending: false })
+        .limit(100);
+
+      if (error) {
+        status.textContent = "Could not load the photos.";
+        return;
+      }
+      if (data.length === 0) {
+        status.textContent = "No approved photos yet.";
+        return;
+      }
+      status.textContent = "";
+
+      data.forEach(function (e) {
+        const box = document.createElement("div");
+        box.className = "box";
+
+        const dateP = document.createElement("p");
+        const dateB = document.createElement("b");
+        dateB.textContent = new Date(e.created_at).toLocaleDateString("en-GB");
+        dateP.appendChild(dateB);
+        box.appendChild(dateP);
+
+        // the picture is looked up in the "photos" folder of the repo,
+        // using the same file name as in Supabase. No file = empty placeholder.
+        function makePlaceholder() {
+          const ph = document.createElement("div");
+          ph.className = "placeholder";
+          ph.textContent = "photo coming soon";
+          return ph;
+        }
+        if (e.photo_path) {
+          const img = document.createElement("img");
+          img.src = "beers/" + encodeURIComponent(e.photo_path);
+          img.alt = "Beer photo";
+          img.loading = "lazy";
+          img.onerror = function () { img.replaceWith(makePlaceholder()); };
+          box.appendChild(img);
+        } else {
+          box.appendChild(makePlaceholder());
+        }
+
+        addLine(box, " beers", "+" + e.amount);
+        if (e.description) addLine(box, e.description, "");
+
+        grid.appendChild(box);
+      });
+    }
+
+    load();
+  </script>
+
+</body>
+</html>
